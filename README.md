@@ -20,4 +20,4 @@ AttrVis Quickstart
 
 ## Others
 - We are very grateful to Robert Geirhos for providing us with the texture-bias dataset. If you need to use this dataset, please refer to: [**texture-vs-shape**](https://github.com/rgeirhos/texture-vs-shape).
-- Next, we will further refactor our codes to improve usability and readability, and upload the codes to this repository.
+- Next, we plan to further refactor our codes to improve usability and readability, and upload the reconstructed codes to this repository.
