@@ -14,7 +14,6 @@ if __name__ == '__main__':
     image_height = 224
     flag_debug = False
     flag_save = True
-    flag_transparent = False
 
     iteration_steps = 801
 
@@ -66,8 +65,7 @@ if __name__ == '__main__':
                                                    layer_name=layer_name, layer_index=layer_index,
                                                    gen_dir='../experiments',
                                                    optimizer_name=optimizer_name, opt_lr=opt_lr,
-                                                   img_name=img_name, network_name=network_name,
-                                                   flag_transparent=flag_transparent)
+                                                   img_name=img_name, network_name=network_name)
 
                     # Layer visualization with pytorch hooks
                     layer_vis.visualize_fm_with_hooks(flag_debug=flag_debug, flag_save=flag_save,

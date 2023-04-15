@@ -18,13 +18,6 @@ from PIL import Image
 from utils.util_loss import InversionLoss
 from utils.IO import get_proj_abs_dir
 
-# 对于resnet50, torch名字和经典网络网站名字对应关系
-# layer1 = res block2
-# layer2 = res block3
-# layer3 = res block4
-# layer4 = res block5
-# block4a = layer3._modules['0'] output
-
 
 class CNNFMVisualization:
     """
