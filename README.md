@@ -14,7 +14,7 @@ AttrVis Quickstart
 2. Run */s_vis_cnn/\*.py* to generate CNN visualizations.
 3. Run */s_vis_vit/\*.py* to generate ViT visualizations.
 
-## For params tests
+## For testing parameters and some optimization strategies
 - Check */utils/transform_robust.py* to select indirect regularization techniques.
 - Check */utils_params/random_params.py* for information about frequency domain optimization
 
