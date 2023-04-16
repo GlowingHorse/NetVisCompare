@@ -1,5 +1,5 @@
 # NetVisCompare
-Implementation for "Visualization Comparison of Vision Transformers and Convolutional Neural Networks".
+Implementation for the manuscript "Visualization Comparison of Vision Transformers and Convolutional Neural Networks".
 
 The optimization-based visualization method can be used to understand the semantic meanings of network representations.
 
