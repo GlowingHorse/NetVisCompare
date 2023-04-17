@@ -37,8 +37,6 @@ if __name__ == '__main__':
 
     iteration_steps = 201
 
-    # optimizer_names = ['Adadelta', 'Adagrad', 'Adam', 'AdamW',
-    #                    'Adamax', 'ASGD', 'RMSprop', 'Rprop']  # , 'SGD']
     optimizer_names = ['Adamax']
     if flag_our_reg and flag_color_space:
         # opt_lrs = [None]*5
@@ -48,7 +46,6 @@ if __name__ == '__main__':
     elif not flag_color_space:
         opt_lrs = [0.002] * 5
 
-    # loss_names = ['allRepr', '196Patch', 'class1Patch', 'singlePatch', 'singleChannel', 'multiAllRepr']
     loss_names = ['multiAllRepr']
 
     network_name = 'ViT_B_16'
